@@ -1,25 +1,25 @@
-# React/Next.js Template
-
-[See Live Demo of this Template](https://drt-next-js-template.netlify.app/)
+# React Joke Generator
 
 ## Topics
-- [Get Started](#getting-started)
 - [Starting the Project](#starting-the-project)
 - [Using axios](#using-axios)
 - [Deploying on Netlify](#deploying-on-netlify)
 ___
-## Getting Started
-### Use Template
-#### 1. To get started, click the GREEN "Use this Template" button at the top of the repo
-<img width="915" alt="Screen Shot 2022-07-06 at 12 54 01 PM" src="https://user-images.githubusercontent.com/29741570/177612998-4aac9237-5a1e-4f13-8ae0-468587521564.png">
 
-#### 2. Make sure YOUR github account is selected in the dropdown and name your project
-<img width="763" alt="Screen Shot 2022-07-06 at 12 54 48 PM" src="https://user-images.githubusercontent.com/29741570/177613126-dd38f678-7553-4f27-8a4a-75680f14d71e.png">
+## Project Deets
+You will be creating a Joke Generator!
 
-#### 3. Clone your new repo to your local machine
-#### 4. Go to the **NEXT** section
+This project is meant to get you thinking in React and to help you with some concepts.
+
+### Acceptance Criteria:
+1. When a user first loads the app, a button appears on the DOM that reads "Get a Joke"
+1. When the user presses the "Get a Joke" button, an API call is made to the joke API and the joke setup appears on the DOM.
+1. When a user presses the "Get a Joke" button, the button text changes to "Get Punchline"
+1. When a user presses the "Get Punchline" button, both the joke setup and delivery are on the DOM along with a button that reads "Get Another Joke"
+1. When the user presses the "Get Another Joke" button, the app starts over from step 3.
 
 ## Starting the Project
+1. Clone this repo to your local machine
 1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
 1. From your command line, be in the root directory and run `npm install` OR `npm i` for short.
 1. Next, run `npm run prepare`. This command sets up husky to track eslint errors on commit that will make your deploy fail on Netlify.
