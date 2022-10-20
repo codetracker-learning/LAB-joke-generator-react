@@ -4,7 +4,6 @@
 
 ## Topics
 - [Starting the Project](#starting-the-project)
-- [Using axios](#using-axios)
 - [Deploying on Netlify](#deploying-on-netlify)
 ___
 
