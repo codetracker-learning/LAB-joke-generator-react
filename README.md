@@ -33,22 +33,6 @@ This project is meant to get you thinking in React and to help you with some con
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Using Axios
-> For every file you will need to make an XHR request in, you will need to require Axios
-```js
-import axios from 'axios';
-
-const examplePromise = () => {
-  axios.get('http://localhost:3001/example')
-    .then((data) => {
-      console.warn(data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
-});
-```
-
 ### Deploying on Netlify
 Netlify will automatically detect your project and prepopulate the settings, but should something go wrong and it does not, here are the commands:
 
